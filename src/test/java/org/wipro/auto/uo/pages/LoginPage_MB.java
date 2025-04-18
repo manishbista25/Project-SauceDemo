@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.wipro.auto.uo.commonutilities.ReadPropFiles;
 
-public class LoginPage_Manish  
+public class LoginPage_MB 
 {
 	WebDriver driver;
 
-	public LoginPage_Manish(WebDriver driver) 
+	public LoginPage_MB(WebDriver driver) 
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

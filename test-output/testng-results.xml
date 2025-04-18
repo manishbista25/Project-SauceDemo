@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-04-17T21:55:15 EDT" name="Default suite" finished-at="2025-04-17T21:55:23 EDT" duration-ms="7874">
     <groups>
     </groups>
@@ -20,6 +21,26 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.wipro.auto.uo.testcases.LoginScenario_Manish -->
+=======
+  <suite started-at="2025-04-17T21:06:46 EDT" name="Default suite" finished-at="2025-04-17T21:06:48 EDT" duration-ms="2573">
+    <groups>
+    </groups>
+    <test started-at="2025-04-17T21:06:46 EDT" name="Default test" finished-at="2025-04-17T21:06:48 EDT" duration-ms="2573">
+      <class name="org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test@1151e434]" started-at="2025-04-17T21:06:46 EDT" name="launchBrowser" finished-at="2025-04-17T21:06:48 EDT" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tc01_validate_valid_login_func()[pri:0, instance:org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test@1151e434]" started-at="2025-04-17T21:06:48 EDT" name="tc01_validate_valid_login_func" finished-at="2025-04-17T21:06:48 EDT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_validate_valid_login_func -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test@1151e434]" started-at="2025-04-17T21:06:48 EDT" name="closeBrowser" finished-at="2025-04-17T21:06:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test -->
+>>>>>>> 7fa69e47483e3c594cf8f992ab6ca638c024a6a2
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
