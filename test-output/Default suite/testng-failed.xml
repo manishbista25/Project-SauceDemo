@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.wipro.auto.uo.testcases.LoginScenario_SM">
+      <class name="org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test">
         <methods>
           <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
           <include name="tc01_validate_valid_login_func"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- org.wipro.auto.uo.testcases.LoginScenario_SM -->
+      </class> <!-- org.wipro.auto.uo.testcases.LoginScenario_Diallo_Warrior_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
